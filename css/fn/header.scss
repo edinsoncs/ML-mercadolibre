@@ -1,0 +1,48 @@
+body {
+	background-color: #F4F4F4;
+	transition: all 0.5s linear;
+	padding: 0!important;
+}
+.ml__Header {
+	background-color: $cHeader;
+	padding: 0.2em 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	.ml__Header--Content {
+		width: $widthHeader;
+		margin: $vacio $Centrado;
+		display: flex;
+		align-items: center;
+		font-size: 25px;
+		figure.figure__Logo {
+			margin: 0 2rem 0 0;
+		}
+		form.form__Search {
+			width: 50%;
+			input {
+				display: inline;
+				vertical-align: middle;
+			}
+			input[type='text'] {
+				outline: medium none;
+				padding: 0.2em 0.2em;
+				border: $none;
+				width: 91%;
+				height: 40px;
+			}
+			input[type='submit'] {
+				width: 45px;
+				background-color: white;
+				background-image: url('http://static.mlstatic.com/org-img/commons/assets/sprite.png?v1');
+				background-position: 13px 9px;
+				background-repeat: no-repeat;
+				border: $none;
+				padding: 0.2em 0.5em;
+				border-radius: 10px - 5px;
+				outline: medium none;
+			}
+		}
+	}
+}

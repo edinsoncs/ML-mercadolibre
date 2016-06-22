@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+figure, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F4F4F4;
+  transition: all 0.5s linear;
+  padding: 0 !important;
+}
+
+.ml__Header {
+  background-color: #FFF059;
+  padding: 0.2em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.ml__Header .ml__Header--Content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.ml__Header .ml__Header--Content figure.figure__Logo {
+  margin: 0 2rem 0 0;
+}
+
+.ml__Header .ml__Header--Content form.form__Search {
+  width: 50%;
+}
+
+.ml__Header .ml__Header--Content form.form__Search input {
+  display: inline;
+  vertical-align: middle;
+}
+
+.ml__Header .ml__Header--Content form.form__Search input[type='text'] {
+  outline: medium none;
+  padding: 0.2em 0.2em;
+  border: none;
+  width: 91%;
+  height: 40px;
+}
+
+.ml__Header .ml__Header--Content form.form__Search input[type='submit'] {
+  width: 45px;
+  background-color: white;
+  background-image: url("http://static.mlstatic.com/org-img/commons/assets/sprite.png?v1");
+  background-position: 13px 9px;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  outline: medium none;
+}
+
+.ml__Cover {
+  background-image: url(../img/ml.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+main {
+  width: 1220px;
+  margin: 5em auto 0 auto !important;
+  overflow: hidden;
+}
+
+main .ml__Header--Product {
+  margin: 2rem 0;
+}
+
+main .ml__Header--Product .title {
+  font-weight: 400;
+}
+
+main .ml__Section--Image {
+  width: 35%;
+  float: left;
+}
+
+main .ml__Section--Image .figure__Content .figure__Content--Img {
+  width: 100%;
+}
+
+main .ml__aside--Details {
+  width: 60%;
+  float: right;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Prince {
+  font-size: 40px;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Price .title--Price {
+  font-size: 2rem;
+  color: #900;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy {
+  margin: 2em 0 0 0;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:first-child, main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:nth-child(2) {
+  width: 20%;
+  margin: 0 0 1em 0;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:first-child .Contents--Iz, main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:nth-child(2) .Contents--Iz {
+  float: left;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:first-child .Contents--De, main .ml__aside--Details .ml__aside--Details--Primary .Details__Buy .Details__Buy--Contents:nth-child(2) .Contents--De {
+  float: right;
+}
+
+main .ml__aside--Details .ml__aside--Details--Primary .Details__More .myCarousel li > img {
+  width: 200px;
+}
+
+main .ml__Tabs--Content {
+  clear: both;
+}
+
+main .ml__Tabs--Content .ul .list {
+  display: inline-block;
+  border-top: 1px solid #666666;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 0.5em;
+}
+
+main .ml__Tabs--Content .ul .select {
+  background: #FFF059;
+}
+
+.itemLoadingML {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8em;
+  margin-top: -6em;
+}
+
+.ml__Products {
+  width: 100%;
+  margin: 8em 0 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ml__Products .Products {
+  width: 250px;
+}
+
+.ml__Products .Products .Products--Header .title {
+  font-size: 1em;
+}
